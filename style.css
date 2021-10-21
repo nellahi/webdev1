@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
+body{
+    background-color: lightblue;
+}
+h1{
+    color: #ff7f50;
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: 2px 2px #008080;
+    font-style: oblique;
+    font-family: monospace;
+    
+}
+h2{
+    color:#008080;
+    font-size: 3rem;
+    text-align: center;
+    font-family: monospace;
+}
+h3{
+    font-size: 3rem;
+    text-align: center;
+    color: coral;
+    font-family: monospace;
+}
+nav{
+    color: coral;
+    text-align: center;
+    font-size: 2rem;
+    font-family: monospace;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 25px;
+    box-shadow: 5px 10px #ffbca4;
+
+}
+p{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}

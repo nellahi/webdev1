@@ -1,0 +1,25 @@
+body{
+    background-image: url(https://st4.depositphotos.com/21504332/30526/v/450/depositphotos_305267520-stock-illustration-vector-illustration-seamless-pattern-funny.jpg);
+    position: absolute;
+}
+h1{
+    text-align: center;
+    color: pink;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+}
+h2{
+    text-align: center;
+    color: pink;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+h3{
+    color: rosybrown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.catgifs{
+    position: fixed;
+    
+}
+
