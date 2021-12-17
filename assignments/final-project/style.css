@@ -126,9 +126,93 @@ nav a {
   color: rosybrown;
   font-size: 30px
 }
-h2{
+.about h3{
   color: #9C7878;
+  font-family: monospace;
 }
 h1:hover, a:hover{
   background-color: darkred;
 }
+@media  (max-width:600px){
+  .wrapper{
+      width: none;
+  }
+  .logo {
+      float: left;
+  }
+  .logo{
+      float: none;
+  }
+  nav{
+      float: none;
+  }
+  .banner-area h2{
+      font-size: 7vw;
+  }
+  .content-area{
+      width: 100%;
+    position: absolute;
+    top: 500px;
+    background: #f7f7f7;;
+    height: 400px;
+      color: #9C7878;
+  }
+  nav{
+      line-height: 40px;
+      align-items: center;
+  }
+  header{
+      position: static;
+      height: 235
+  }
+  nav a{
+      margin: px;
+      letter-spacing:3;
+      margin-right:500;
+      padding: 80; 
+  }
+  .banner-area h2{
+      width: 500;
+      padding-top: 60;
+      font-size: 40px;
+      margin-left: 20px;
+  }
+  .content-area p {
+  padding: 5% 3px;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;;
+  line-height: 40px;
+  color: rosybrown;
+  font-size:23px;
+  margin-right: 360
+}
+  .content-area h2 {
+  font-family: monospace;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  font-size: 30px;
+  margin: 3;
+  margin-right: 360
+}
+  .button {
+display: inline-block;
+border-radius: 12px;
+background-color: rosybrown;
+border: none;
+color: #FFFFFF;
+text-align: center;
+font-size: 28px;
+padding: 20px;
+width: 170px;
+transition: all 0.5s;
+cursor: pointer;
+margin: 2px;
+margin-right: 380;
+}
+img{
+  margin-right: 330px;
+}
+  
+  
+}
+
+
