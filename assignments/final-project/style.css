@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	text-align: center;
+}
+.wrapper {
+	width: 900px;
+	margin: 0 auto;
+}
+header {
+	height: 100px;
+	background-color: rosybrown;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+.logo {
+	width: 0%;
+	float: left;
+	line-height: 100px;
+}
+nav {
+	float: right;
+	line-height: 100px;
+}
+nav a {
+	text-decoration: none;
+	font-family: monospace;
+	letter-spacing: px;
+	font-size: 20px;
+	margin: 0 15px;
+	color: white;
+}
+.banner-area {
+	width: 100%;
+	height: 500px;
+	top: 120px;
+	background-image: url(Images/TF-teaspoon-cafe-boba-tea-7209.jpg);
+    background-position: center center;
+}
+.banner-area h2 {
+	padding-top: 18%;
+	font-size: 100px;
+	font-family: monospace;
+	color: white;
+
+}
+.content-area {
+	width: 100%;
+	position: absolute;
+	top: 450px;
+	background:#f7f7f7;
+	height: 500px;
+    color: #9C7878;
+}
+.content-area h2 {
+	font-family: 'Courier New', Courier, monospace;
+	letter-spacing: 7px;
+	padding-top: 30px;
+	font-size: 50px;
+	margin: 0;
+
+}
+.content-area p {
+	padding: 2% 0px;
+	font-family: 'Zen Kaku Gothic Antique', sans-serif;
+	line-height: 50px;
+    color: rosybrown;
+    font-size: 30px
+    
+}
+.button {
+  display: inline-block;
+  border-radius: 12px;
+  background-color: rosybrown;
+  border: none;
+  color: #f7f7f7;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 170px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.banner-area3 {
+	width: 100%;
+	height: 500px;
+	top: 120px;
+	background-image: url(Images/5.+n.jpg);
+    background-position: center center;
+}
+.banner-area3 h2 {
+	padding-top: 18%;
+	font-size: 200px;
+	font-family: monospace;
+	color: white;
+}
+.about{
+  padding: 2% 0px;
+	font-family: 'Zen Kaku Gothic Antique', sans-serif;
+	line-height: 50px;
+  color: rosybrown;
+  font-size: 30px
+}
+h2{
+  color: #9C7878;
+}
+h1:hover, a:hover{
+  background-color: darkred;
+}
